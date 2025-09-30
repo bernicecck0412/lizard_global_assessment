@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  max-width: 100%;
+  margin: 20px;
+}
+
+/* Header with title and filter */
+header {
+  margin: 10px;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header label {
+  font-size: 16px;
+}
+
+header select {
+  max-width: 150px;
+  font-size: 16px;
+}
+
+/* Posts */
+section ul {
+  list-style: none;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+section li {
+  background: white;
+  border: solid 1px white;
+  box-shadow: 0 2px 5px grey;
+  margin-bottom: 20px;
+}
+
+article {
+  margin: 10px;
+}
+
+article h2 {
+  font-size: 20px;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+article p {
+  font-size: 16px;
+}
+
+/* Pagination */
+nav {
+  text-align: center;
+  margin: 10px;
+  font-size: 12px;
+}
+
+nav button {
+  padding: 10px 20px;
+  border: none;
+  background: lightblue;
+  color: black;
+  border-radius: 4px;
+}
+
+nav button:disabled {
+  background: lightgrey;
+}
+
+nav span {
+  margin: 5px;
+}
